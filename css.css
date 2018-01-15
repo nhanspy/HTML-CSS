@@ -1,0 +1,124 @@
+table {
+	border-collapse: collapse;
+	background-color: white;
+	border:3px solid gray;
+	padding: 50px;
+	width: 90%
+}
+th,td {
+	padding: 10px;
+	border:3px solid gray;
+}
+thead	{
+	background-color: #008000;
+	color: white;
+	border:3px solid gray;
+}
+tr.table:hover {
+	background-color: #ddd;
+	}
+	p.inset {
+		background-color: none;
+		max-width: 15%	;
+		border-style: inset;
+	}
+	p.outset {
+		border-style: outset;
+		margin: 0% 42%;
+		font-weight: bold;
+		text-align: center;
+		font-style: oblique;
+		font-family: "time new Roman";
+		font-style: oblique;	
+	}
+	h1 {
+		border-bottom-style: outset;
+		border-radius: 10px;
+	}
+	a {
+		text-decoration: none;
+	}
+	p#cc {
+		background-color: red;
+		color: white;
+		font-size: 30px;
+		align-content: center;
+	}
+	dl,dt {
+		border:1px outset black;
+	}
+	.link { 
+		color: black;
+		border: 5px;
+		padding: 5px;
+		background-color: white;
+		border-radius:50px;
+		border-style: outset;
+		border-color: green
+	 }
+	.link:hover {
+		border: 3px outset green;
+		padding: 5px;
+		background-color: #66ff66;
+	}
+	.link:active {
+		color: white;
+		border: 2px outset green;
+		padding: 5px;
+		background-color: green;
+	}
+	.n:hover {
+		text-decoration: underline;
+	}
+	ol {
+		list-style-type: lower-alpha;
+	}
+	.header {
+		background-color: #006600;
+		color: white;
+		text-align: center;
+		width: 100%;
+	}
+	.concent {
+
+	}
+	.cot1 {
+		float: left;
+		width: 20%;
+		background-color: #F5DEB3;
+		height: 2000px;
+	}
+	.cot2 {
+		float: left;
+		border-collapse: collapse;
+		border: 2px inset gray;
+		width: 60%;
+		background: #ffffcc repeat fixed center;
+	}
+	.cot3 {
+		float: left;
+		width: 19.6%;
+		height: 5000px;
+		background-color:#ffcc99;
+	}
+	.menu {
+		border: 2px solid black;
+		margin: 5px;
+		background-color:#FFE4E1;
+		overflow: auto;
+		border-radius:10px;
+		padding:10px;
+		position: fixed;
+		right: 80%;
+	}
+	.quangcao {
+		border:2px solid black;
+		background-color:#FFE4E1;
+		overflow: auto;
+		border-radius:10px;
+		padding:10px;
+		margin:2px;
+	}
+	img,iframe:hover {
+		opacity: 0.8
+	}

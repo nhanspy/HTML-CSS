@@ -1,0 +1,141 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: "Times New Roman", Times, serif;
+}
+#qc{
+	position: fixed;
+	left: 0px;
+	bottom: 30px;
+}
+.header {
+	background-color: #1b1a1a;
+	padding: 0px 10%;
+	height: 50px;
+	margin: 0px;
+}
+input.inp {
+	position: absolute;
+	left: 27%;
+	margin: 10px;
+	border: 0px;
+	width: 300px;
+	height: 20px;
+	padding: 5px;;
+}
+a.mp3{
+	position: absolute;
+	top: 7px;
+	left: 53%;
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
+	background-color: black;
+	color: #4e0598;
+}
+.mp3:hover {
+	background-color: black;
+	color: #4e0598;
+}
+.news{
+	position: absolute;
+	top: 7px;
+	left: 57%;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
+}
+.news:hover {
+	background-color: black;
+	color: #4e0598;
+}
+.tv{
+	position: absolute;
+	top: 7px;
+	left: 62%;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
+}
+.tv:hover {
+	background-color: black;
+	color: #4e0598;
+}
+a.dangnhap{
+	text-decoration: none;
+}
+a.dangnhap:hover {
+	text-decoration: underline;
+}
+div.header2 {
+	background-color: #e3dede;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	height: 35px;
+	padding: 0px 10%;
+}
+a.ncn {
+	text-decoration: none;
+	position: absolute;
+	color: black;
+	padding: 8px;
+}
+.ncn:hover {
+	background-color: white;
+}
+a.quangcao {
+	text-decoration: none;
+	position: absolute;
+	right: 20%;
+	color: black;
+	padding: 8px;
+}
+.quangcao:hover {
+	color: #4e0598;
+}
+.content {
+	position: absolute;
+	left: 13%;
+	right: 13%;
+	top: 14%;
+	clear: both;
+}
+.important {
+	position: absolute;
+	left: 0px;
+	right: 33%;
+}
+.unimportant {
+	position: absolute;
+	left: 68%;
+	right: 0px;
+	padding: 5px;
+}
+img.status:hover {
+	opacity: 0.9;
+}
+img.chude {
+	padding-top: 10px ;
+}
+img.chude:hover {
+	opacity: 0.9;
+}
+p.text-color {
+	color: #990099;
+	font-size: 20px;
+}
+.block {
+	position: relative;
+	width: 150px;
+	height: 200px;
+	text-decoration: none;
+	color: black;
+
+}
+img.bl {
+	width: 150px;
+	height: 150px;
+}
